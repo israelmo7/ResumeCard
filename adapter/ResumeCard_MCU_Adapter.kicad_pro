@@ -1,0 +1,23 @@
+{
+  "board": {
+    "design_settings": {
+      "defaults": {},
+      "diff_pair_dimensions": [],
+      "drc_exclusions": [],
+      "rules": {},
+      "track_widths": [0.0, 0.35],
+      "via_dimensions": []
+    }
+  },
+  "meta": {
+    "filename": "ResumeCard_MCU_Adapter.kicad_pro",
+    "version": 1
+  },
+  "project": {
+    "files": []
+  },
+  "sheets": [
+    ["ResumeCard_MCU_Adapter.kicad_sch", "Root"]
+  ],
+  "text_variables": {}
+}

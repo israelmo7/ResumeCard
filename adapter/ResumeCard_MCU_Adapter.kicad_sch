@@ -1,0 +1,139 @@
+(kicad_sch
+	(version 20231120)
+	(generator "ResumeCard adapter generator")
+	(generator_version "1.0")
+	(uuid aaaaaaaa-bbbb-cccc-ddd0-000000000010)
+	(paper "A4")
+	(title_block
+		(title "ResumeCard MCU Pinout Adapter")
+		(date "2026-11-17")
+		(rev "1")
+		(company "ResumeCard")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+		(text "ResumeCard MCU Adapter"
+			(exclude_from_sim no)
+			(at 25.4 25.4 0)
+			(effects (font (size 1.27 1.27)) (justify left bottom))
+		)
+		(text "J1 = board U1 pin order (shifted)"
+			(exclude_from_sim no)
+			(at 25.4 30.479999999999997 0)
+			(effects (font (size 1.27 1.27)) (justify left bottom))
+		)
+		(text "U1 = ATtiny2313A datasheet pin order"
+			(exclude_from_sim no)
+			(at 25.4 35.559999999999995 0)
+			(effects (font (size 1.27 1.27)) (justify left bottom))
+		)
+		(text "See pin_map.csv for connections"
+			(exclude_from_sim no)
+			(at 25.4 40.63999999999999 0)
+			(effects (font (size 1.27 1.27)) (justify left bottom))
+		)
+		(text "RESET: MCU pin 1 (PA2/~RESET) <-> Board pad 19 (~RST)"
+			(exclude_from_sim no)
+			(at 25.4 55.0 0)
+			(effects (font (size 1.0 1.0)) (justify left bottom))
+		)
+		(text "RXD: MCU pin 2 (PD0/RXD) <-> Board pad 20 (RXD)"
+			(exclude_from_sim no)
+			(at 25.4 58.5 0)
+			(effects (font (size 1.0 1.0)) (justify left bottom))
+		)
+		(text "TXD: MCU pin 3 (PD1/TXD) <-> Board pad 1 (TXD)"
+			(exclude_from_sim no)
+			(at 25.4 62.0 0)
+			(effects (font (size 1.0 1.0)) (justify left bottom))
+		)
+		(text "BTN: MCU pin 4 (PA1/XTAL2) <-> Board pad 2 (BTN)"
+			(exclude_from_sim no)
+			(at 25.4 65.5 0)
+			(effects (font (size 1.0 1.0)) (justify left bottom))
+		)
+		(text "DIN: MCU pin 5 (PA0/XTAL1) <-> Board pad 3 (DIN)"
+			(exclude_from_sim no)
+			(at 25.4 69.0 0)
+			(effects (font (size 1.0 1.0)) (justify left bottom))
+		)
+		(text "R1: MCU pin 6 (PD2) <-> Board pad 4 (R1)"
+			(exclude_from_sim no)
+			(at 25.4 72.5 0)
+			(effects (font (size 1.0 1.0)) (justify left bottom))
+		)
+		(text "R2: MCU pin 7 (PD3) <-> Board pad 5 (R2)"
+			(exclude_from_sim no)
+			(at 25.4 76.0 0)
+			(effects (font (size 1.0 1.0)) (justify left bottom))
+		)
+		(text "R3: MCU pin 8 (PD4) <-> Board pad 6 (R3)"
+			(exclude_from_sim no)
+			(at 25.4 79.5 0)
+			(effects (font (size 1.0 1.0)) (justify left bottom))
+		)
+		(text "R4: MCU pin 9 (PD5) <-> Board pad 7 (R4)"
+			(exclude_from_sim no)
+			(at 25.4 83.0 0)
+			(effects (font (size 1.0 1.0)) (justify left bottom))
+		)
+		(text "GND: MCU pin 10 (GND) <-> Board pad 8 (GND)"
+			(exclude_from_sim no)
+			(at 25.4 86.5 0)
+			(effects (font (size 1.0 1.0)) (justify left bottom))
+		)
+		(text "R5: MCU pin 11 (PD6) <-> Board pad 9 (R5)"
+			(exclude_from_sim no)
+			(at 25.4 90.0 0)
+			(effects (font (size 1.0 1.0)) (justify left bottom))
+		)
+		(text "C5: MCU pin 12 (PB0) <-> Board pad 10 (C5)"
+			(exclude_from_sim no)
+			(at 25.4 93.5 0)
+			(effects (font (size 1.0 1.0)) (justify left bottom))
+		)
+		(text "C4: MCU pin 13 (PB1) <-> Board pad 11 (C4)"
+			(exclude_from_sim no)
+			(at 25.4 97.0 0)
+			(effects (font (size 1.0 1.0)) (justify left bottom))
+		)
+		(text "C3: MCU pin 14 (PB2) <-> Board pad 12 (C3)"
+			(exclude_from_sim no)
+			(at 25.4 100.5 0)
+			(effects (font (size 1.0 1.0)) (justify left bottom))
+		)
+		(text "C2: MCU pin 15 (PB3) <-> Board pad 13 (C2)"
+			(exclude_from_sim no)
+			(at 25.4 104.0 0)
+			(effects (font (size 1.0 1.0)) (justify left bottom))
+		)
+		(text "C1: MCU pin 16 (PB4) <-> Board pad 14 (C1)"
+			(exclude_from_sim no)
+			(at 25.4 107.5 0)
+			(effects (font (size 1.0 1.0)) (justify left bottom))
+		)
+		(text "MOSI: MCU pin 17 (PB5/MOSI) <-> Board pad 15 (MOSI)"
+			(exclude_from_sim no)
+			(at 25.4 111.0 0)
+			(effects (font (size 1.0 1.0)) (justify left bottom))
+		)
+		(text "MISO: MCU pin 18 (PB6/MISO) <-> Board pad 16 (MISO)"
+			(exclude_from_sim no)
+			(at 25.4 114.5 0)
+			(effects (font (size 1.0 1.0)) (justify left bottom))
+		)
+		(text "SCK: MCU pin 19 (PB7/SCK) <-> Board pad 17 (SCK)"
+			(exclude_from_sim no)
+			(at 25.4 118.0 0)
+			(effects (font (size 1.0 1.0)) (justify left bottom))
+		)
+		(text "VCC: MCU pin 20 (VCC) <-> Board pad 18 (PWR)"
+			(exclude_from_sim no)
+			(at 25.4 121.5 0)
+			(effects (font (size 1.0 1.0)) (justify left bottom))
+		)
+)
