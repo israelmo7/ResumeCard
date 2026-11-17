@@ -51,6 +51,11 @@ The board is intended for use in custom LED panels, keypads, or modular lighting
 Use any **AVR ISP programmer** (e.g., USBasp, Atmel ICE, or Arduino as ISP).  
 The board also supports **UART debugging via USB**, allowing serial monitoring of LED behavior.
 
+### MCU note / pinout adapter
+
+The onboard `U1` DIP footprint pad order is shifted vs a real **ATtiny2313A** datasheet pinout.  
+Use the remapping shield in [`adapter/`](adapter/) (KiCad sources + fab Gerbers) so a 2313A can be mounted safely.
+
 ---
 
 ## 📝 HOW TO USE
