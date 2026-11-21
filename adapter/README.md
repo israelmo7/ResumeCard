@@ -52,7 +52,9 @@ Silkscreen marks `BOARD →` / `← MCU`, pin 1 notches, and `GND` / `VCC`.
 Gerbers + drill are in [`production/`](production/) (`ResumeCard_MCU_Adapter.zip`).  
 Typical JLCPCB/PCBWay 2-layer settings work (1.6 mm FR4, HASL or ENIG, 0.3 mm min drill OK).
 
-Preview: [`preview.svg`](preview.svg)
+Previews:
+- Adapter routing: [`preview.svg`](preview.svg)
+- Wrong vs correct DIP pinout: [`pinout_compare.svg`](pinout_compare.svg)
 
 **Before ordering:** open the Gerbers (or the KiCad PCB) in a viewer and confirm pad 1 notches, `VCC`/`GND`, and that `J_BOARD` pitch matches ResumeCard `U1`. These files were generated from `pin_map.csv` programmatically.
 
