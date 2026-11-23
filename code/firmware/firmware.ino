@@ -3,9 +3,10 @@
 #define G 0
 #define R 1
 #define B 2
-#define HIGH_BIT_CYCLES 6
-#define LOW_BIT_CYCLES 3
-#define FULL_BIT_CYCLES 10
+#define T1H 6
+#define T1L 3
+#define T0H 4
+#define T0L 7
 #define FOOTER_CYCLES 640
 
 static const uint8_t NUM_LEDS = 25;
@@ -57,18 +58,19 @@ inline void leds_show()
         led = *led_p;
         for(j=0; j < 8; ++j, led <<= 1)
         {
-            PORTA |= (1 << PA0);
             if (led & 0x80)
             {
-                __builtin_avr_delay_cycles(HIGH_BIT_CYCLES);
+                PORTA |= (1 << PA0);
+                __builtin_avr_delay_cycles(T1H);
                 PORTA &= ~(1 << PA0);
-                __builtin_avr_delay_cycles(FULL_BIT_CYCLES - HIGH_BIT_CYCLES);
+                __builtin_avr_delay_cycles(T0H);
             }
             else
             {
-                __builtin_avr_delay_cycles(LOW_BIT_CYCLES);
+                PORTA |= (1 << PA0);
+                __builtin_avr_delay_cycles(T1L);
                 PORTA &= ~(1 << PA0);
-                __builtin_avr_delay_cycles(FULL_BIT_CYCLES - LOW_BIT_CYCLES);
+                __builtin_avr_delay_cycles(T0L);
             }            
         }
     }
