@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="460" viewBox="0 0 720 460">
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M 0 0 L 10 5 L 0 10 z" fill="#666"/>
+</marker>
+</defs>
+<rect width="100%" height="100%" fill="#f7f4ef"/>
+<text x="360" y="28" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#1a1a1a">ATtiny2313A Pinout Mismatch</text>
+<text x="360" y="48" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#555">Board U1 (as laid out) vs datasheet-correct DIP-20 — same signals, pad numbers shifted by 2</text>
+<rect x="90" y="102" width="140" height="288" rx="6" fill="#fdecea" stroke="#c0392b" stroke-width="2"/>
+<path d="M 148.0 102 A 12 12 0 0 0 172.0 102" fill="none" stroke="#c0392b" stroke-width="2"/>
+<text x="160.0" y="80" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#c0392b">YOUR BOARD U1</text>
+<text x="160.0" y="94" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#666">wrong pad order (as manufactured)</text>
+<rect x="28" y="110" width="52" height="20" rx="3" fill="#fff" stroke="#2980b9" stroke-width="1.5"/>
+<text x="36" y="124" text-anchor="start" font-family="ui-monospace, monospace" font-size="10" fill="#333">1</text>
+<text x="74" y="124" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="600" fill="#2980b9">TXD</text>
+<rect x="28" y="138" width="52" height="20" rx="3" fill="#fff" stroke="#27ae60" stroke-width="1.5"/>
+<text x="36" y="152" text-anchor="start" font-family="ui-monospace, monospace" font-size="10" fill="#333">2</text>
+<text x="74" y="152" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="600" fill="#27ae60">BTN</text>
+<rect x="28" y="166" width="52" height="20" rx="3" fill="#fff" stroke="#e67e22" stroke-width="1.5"/>
+<text x="36" y="180" text-anchor="start" font-family="ui-monospace, monospace" font-size="10" fill="#333">3</text>
+<text x="74" y="180" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="600" fill="#e67e22">DIN/PA0</text>
+<rect x="28" y="194" width="52" height="20" rx="3" fill="#fff" stroke="#27ae60" stroke-width="1.5"/>
+<text x="36" y="208" text-anchor="start" font-family="ui-monospace, monospace" font-size="10" fill="#333">4</text>
+<text x="74" y="208" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="600" fill="#27ae60">R1</text>
+<rect x="28" y="222" width="52" height="20" rx="3" fill="#fff" stroke="#27ae60" stroke-width="1.5"/>
+<text x="36" y="236" text-anchor="start" font-family="ui-monospace, monospace" font-size="10" fill="#333">5</text>
+<text x="74" y="236" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="600" fill="#27ae60">R2</text>
+<rect x="28" y="250" width="52" height="20" rx="3" fill="#fff" stroke="#27ae60" stroke-width="1.5"/>
+<text x="36" y="264" text-anchor="start" font-family="ui-monospace, monospace" font-size="10" fill="#333">6</text>
+<text x="74" y="264" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="600" fill="#27ae60">R3</text>
+<rect x="28" y="278" width="52" height="20" rx="3" fill="#fff" stroke="#27ae60" stroke-width="1.5"/>
+<text x="36" y="292" text-anchor="start" font-family="ui-monospace, monospace" font-size="10" fill="#333">7</text>
+<text x="74" y="292" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="600" fill="#27ae60">R4</text>
+<rect x="28" y="306" width="52" height="20" rx="3" fill="#fff" stroke="#2c3e50" stroke-width="1.5"/>
+<text x="36" y="320" text-anchor="start" font-family="ui-monospace, monospace" font-size="10" fill="#333">8</text>
+<text x="74" y="320" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="600" fill="#2c3e50">GND</text>
+<rect x="28" y="334" width="52" height="20" rx="3" fill="#fff" stroke="#27ae60" stroke-width="1.5"/>
+<text x="36" y="348" text-anchor="start" font-family="ui-monospace, monospace" font-size="10" fill="#333">9</text>
+<text x="74" y="348" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="600" fill="#27ae60">R5</text>
+<rect x="28" y="362" width="52" height="20" rx="3" fill="#fff" stroke="#1abc9c" stroke-width="1.5"/>
+<text x="36" y="376" text-anchor="start" font-family="ui-monospace, monospace" font-size="10" fill="#333">10</text>
+<text x="74" y="376" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="600" fill="#1abc9c">C5</text>
+<rect x="240" y="362" width="52" height="20" rx="3" fill="#fff" stroke="#1abc9c" stroke-width="1.5"/>
+<text x="284" y="376" text-anchor="end" font-family="ui-monospace, monospace" font-size="10" fill="#333">11</text>
+<text x="246" y="376" text-anchor="start" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="600" fill="#1abc9c">C4</text>
+<rect x="240" y="334" width="52" height="20" rx="3" fill="#fff" stroke="#1abc9c" stroke-width="1.5"/>
+<text x="284" y="348" text-anchor="end" font-family="ui-monospace, monospace" font-size="10" fill="#333">12</text>
+<text x="246" y="348" text-anchor="start" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="600" fill="#1abc9c">C3</text>
+<rect x="240" y="306" width="52" height="20" rx="3" fill="#fff" stroke="#1abc9c" stroke-width="1.5"/>
+<text x="284" y="320" text-anchor="end" font-family="ui-monospace, monospace" font-size="10" fill="#333">13</text>
+<text x="246" y="320" text-anchor="start" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="600" fill="#1abc9c">C2</text>
+<rect x="240" y="278" width="52" height="20" rx="3" fill="#fff" stroke="#1abc9c" stroke-width="1.5"/>
+<text x="284" y="292" text-anchor="end" font-family="ui-monospace, monospace" font-size="10" fill="#333">14</text>
+<text x="246" y="292" text-anchor="start" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="600" fill="#1abc9c">C1</text>
+<rect x="240" y="250" width="52" height="20" rx="3" fill="#fff" stroke="#16a085" stroke-width="1.5"/>
+<text x="284" y="264" text-anchor="end" font-family="ui-monospace, monospace" font-size="10" fill="#333">15</text>
+<text x="246" y="264" text-anchor="start" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="600" fill="#16a085">MOSI</text>
+<rect x="240" y="222" width="52" height="20" rx="3" fill="#fff" stroke="#16a085" stroke-width="1.5"/>
+<text x="284" y="236" text-anchor="end" font-family="ui-monospace, monospace" font-size="10" fill="#333">16</text>
+<text x="246" y="236" text-anchor="start" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="600" fill="#16a085">MISO</text>
+<rect x="240" y="194" width="52" height="20" rx="3" fill="#fff" stroke="#16a085" stroke-width="1.5"/>
+<text x="284" y="208" text-anchor="end" font-family="ui-monospace, monospace" font-size="10" fill="#333">17</text>
+<text x="246" y="208" text-anchor="start" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="600" fill="#16a085">SCK</text>
+<rect x="240" y="166" width="52" height="20" rx="3" fill="#fff" stroke="#c0392b" stroke-width="1.5"/>
+<text x="284" y="180" text-anchor="end" font-family="ui-monospace, monospace" font-size="10" fill="#333">18</text>
+<text x="246" y="180" text-anchor="start" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="600" fill="#c0392b">VCC</text>
+<rect x="240" y="138" width="52" height="20" rx="3" fill="#fff" stroke="#8e44ad" stroke-width="1.5"/>
+<text x="284" y="152" text-anchor="end" font-family="ui-monospace, monospace" font-size="10" fill="#333">19</text>
+<text x="246" y="152" text-anchor="start" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="600" fill="#8e44ad">RESET</text>
+<rect x="240" y="110" width="52" height="20" rx="3" fill="#fff" stroke="#2980b9" stroke-width="1.5"/>
+<text x="284" y="124" text-anchor="end" font-family="ui-monospace, monospace" font-size="10" fill="#333">20</text>
+<text x="246" y="124" text-anchor="start" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="600" fill="#2980b9">RXD</text>
+<rect x="430" y="102" width="140" height="288" rx="6" fill="#eaf7ea" stroke="#1e8449" stroke-width="2"/>
+<path d="M 488.0 102 A 12 12 0 0 0 512.0 102" fill="none" stroke="#1e8449" stroke-width="2"/>
+<text x="500.0" y="80" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1e8449">ATtiny2313A</text>
+<text x="500.0" y="94" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#666">correct datasheet pinout</text>
+<rect x="368" y="110" width="52" height="20" rx="3" fill="#fff" stroke="#8e44ad" stroke-width="1.5"/>
+<text x="376" y="124" text-anchor="start" font-family="ui-monospace, monospace" font-size="10" fill="#333">1</text>
+<text x="414" y="124" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="600" fill="#8e44ad">RESET</text>
+<rect x="368" y="138" width="52" height="20" rx="3" fill="#fff" stroke="#2980b9" stroke-width="1.5"/>
+<text x="376" y="152" text-anchor="start" font-family="ui-monospace, monospace" font-size="10" fill="#333">2</text>
+<text x="414" y="152" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="600" fill="#2980b9">RXD</text>
+<rect x="368" y="166" width="52" height="20" rx="3" fill="#fff" stroke="#2980b9" stroke-width="1.5"/>
+<text x="376" y="180" text-anchor="start" font-family="ui-monospace, monospace" font-size="10" fill="#333">3</text>
+<text x="414" y="180" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="600" fill="#2980b9">TXD</text>
+<rect x="368" y="194" width="52" height="20" rx="3" fill="#fff" stroke="#27ae60" stroke-width="1.5"/>
+<text x="376" y="208" text-anchor="start" font-family="ui-monospace, monospace" font-size="10" fill="#333">4</text>
+<text x="414" y="208" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="600" fill="#27ae60">PA1</text>
+<rect x="368" y="222" width="52" height="20" rx="3" fill="#fff" stroke="#e67e22" stroke-width="1.5"/>
+<text x="376" y="236" text-anchor="start" font-family="ui-monospace, monospace" font-size="10" fill="#333">5</text>
+<text x="414" y="236" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="600" fill="#e67e22">PA0</text>
+<rect x="368" y="250" width="52" height="20" rx="3" fill="#fff" stroke="#27ae60" stroke-width="1.5"/>
+<text x="376" y="264" text-anchor="start" font-family="ui-monospace, monospace" font-size="10" fill="#333">6</text>
+<text x="414" y="264" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="600" fill="#27ae60">PD2</text>
+<rect x="368" y="278" width="52" height="20" rx="3" fill="#fff" stroke="#27ae60" stroke-width="1.5"/>
+<text x="376" y="292" text-anchor="start" font-family="ui-monospace, monospace" font-size="10" fill="#333">7</text>
+<text x="414" y="292" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="600" fill="#27ae60">PD3</text>
+<rect x="368" y="306" width="52" height="20" rx="3" fill="#fff" stroke="#27ae60" stroke-width="1.5"/>
+<text x="376" y="320" text-anchor="start" font-family="ui-monospace, monospace" font-size="10" fill="#333">8</text>
+<text x="414" y="320" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="600" fill="#27ae60">PD4</text>
+<rect x="368" y="334" width="52" height="20" rx="3" fill="#fff" stroke="#27ae60" stroke-width="1.5"/>
+<text x="376" y="348" text-anchor="start" font-family="ui-monospace, monospace" font-size="10" fill="#333">9</text>
+<text x="414" y="348" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="600" fill="#27ae60">PD5</text>
+<rect x="368" y="362" width="52" height="20" rx="3" fill="#fff" stroke="#2c3e50" stroke-width="1.5"/>
+<text x="376" y="376" text-anchor="start" font-family="ui-monospace, monospace" font-size="10" fill="#333">10</text>
+<text x="414" y="376" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="600" fill="#2c3e50">GND</text>
+<rect x="580" y="362" width="52" height="20" rx="3" fill="#fff" stroke="#27ae60" stroke-width="1.5"/>
+<text x="624" y="376" text-anchor="end" font-family="ui-monospace, monospace" font-size="10" fill="#333">11</text>
+<text x="586" y="376" text-anchor="start" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="600" fill="#27ae60">PD6</text>
+<rect x="580" y="334" width="52" height="20" rx="3" fill="#fff" stroke="#1abc9c" stroke-width="1.5"/>
+<text x="624" y="348" text-anchor="end" font-family="ui-monospace, monospace" font-size="10" fill="#333">12</text>
+<text x="586" y="348" text-anchor="start" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="600" fill="#1abc9c">PB0</text>
+<rect x="580" y="306" width="52" height="20" rx="3" fill="#fff" stroke="#1abc9c" stroke-width="1.5"/>
+<text x="624" y="320" text-anchor="end" font-family="ui-monospace, monospace" font-size="10" fill="#333">13</text>
+<text x="586" y="320" text-anchor="start" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="600" fill="#1abc9c">PB1</text>
+<rect x="580" y="278" width="52" height="20" rx="3" fill="#fff" stroke="#1abc9c" stroke-width="1.5"/>
+<text x="624" y="292" text-anchor="end" font-family="ui-monospace, monospace" font-size="10" fill="#333">14</text>
+<text x="586" y="292" text-anchor="start" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="600" fill="#1abc9c">PB2</text>
+<rect x="580" y="250" width="52" height="20" rx="3" fill="#fff" stroke="#1abc9c" stroke-width="1.5"/>
+<text x="624" y="264" text-anchor="end" font-family="ui-monospace, monospace" font-size="10" fill="#333">15</text>
+<text x="586" y="264" text-anchor="start" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="600" fill="#1abc9c">PB3</text>
+<rect x="580" y="222" width="52" height="20" rx="3" fill="#fff" stroke="#1abc9c" stroke-width="1.5"/>
+<text x="624" y="236" text-anchor="end" font-family="ui-monospace, monospace" font-size="10" fill="#333">16</text>
+<text x="586" y="236" text-anchor="start" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="600" fill="#1abc9c">PB4</text>
+<rect x="580" y="194" width="52" height="20" rx="3" fill="#fff" stroke="#16a085" stroke-width="1.5"/>
+<text x="624" y="208" text-anchor="end" font-family="ui-monospace, monospace" font-size="10" fill="#333">17</text>
+<text x="586" y="208" text-anchor="start" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="600" fill="#16a085">MOSI</text>
+<rect x="580" y="166" width="52" height="20" rx="3" fill="#fff" stroke="#16a085" stroke-width="1.5"/>
+<text x="624" y="180" text-anchor="end" font-family="ui-monospace, monospace" font-size="10" fill="#333">18</text>
+<text x="586" y="180" text-anchor="start" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="600" fill="#16a085">MISO</text>
+<rect x="580" y="138" width="52" height="20" rx="3" fill="#fff" stroke="#16a085" stroke-width="1.5"/>
+<text x="624" y="152" text-anchor="end" font-family="ui-monospace, monospace" font-size="10" fill="#333">19</text>
+<text x="586" y="152" text-anchor="start" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="600" fill="#16a085">SCK</text>
+<rect x="580" y="110" width="52" height="20" rx="3" fill="#fff" stroke="#c0392b" stroke-width="1.5"/>
+<text x="624" y="124" text-anchor="end" font-family="ui-monospace, monospace" font-size="10" fill="#333">20</text>
+<text x="586" y="124" text-anchor="start" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="600" fill="#c0392b">VCC</text>
+<rect x="255" y="180" width="150" height="110" rx="8" fill="#fff" stroke="#bbb" stroke-width="1"/>
+<text x="330" y="205" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" fill="#333">2-pin cyclic shift</text>
+<text x="330" y="228" text-anchor="middle" font-family="ui-monospace, monospace" font-size="11" fill="#555">MCU pin N</text>
+<text x="330" y="248" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="18" fill="#c0392b">↓</text>
+<text x="330" y="270" text-anchor="middle" font-family="ui-monospace, monospace" font-size="11" fill="#555">Board pad ((N-3) mod 20)+1</text>
+<text x="360" y="402" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#333">Examples — adapter reconnects these:</text>
+<rect x="40" y="410" width="155" height="28" rx="4" fill="#fff" stroke="#8e44ad" stroke-width="1.2"/>
+<text x="117" y="428" text-anchor="middle" font-family="ui-monospace, monospace" font-size="11" fill="#222">MCU 1 → Board 19  RESET</text>
+<rect x="210" y="410" width="155" height="28" rx="4" fill="#fff" stroke="#2c3e50" stroke-width="1.2"/>
+<text x="287" y="428" text-anchor="middle" font-family="ui-monospace, monospace" font-size="11" fill="#222">MCU 10 → Board 8  GND</text>
+<rect x="380" y="410" width="155" height="28" rx="4" fill="#fff" stroke="#c0392b" stroke-width="1.2"/>
+<text x="457" y="428" text-anchor="middle" font-family="ui-monospace, monospace" font-size="11" fill="#222">MCU 20 → Board 18  VCC</text>
+<rect x="550" y="410" width="155" height="28" rx="4" fill="#fff" stroke="#e67e22" stroke-width="1.2"/>
+<text x="627" y="428" text-anchor="middle" font-family="ui-monospace, monospace" font-size="11" fill="#222">MCU 5 → Board 3  DIN</text>
+</svg>
