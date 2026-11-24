@@ -4,8 +4,8 @@
 #define R 1
 #define B 2
 #define T1H 6
-#define T1L 3
-#define T0H 4
+#define T1L 4
+#define T0H 2
 #define T0L 7
 #define FOOTER_CYCLES 640
 
@@ -63,12 +63,12 @@ inline void leds_show()
                 PORTA |= (1 << PA0);
                 __builtin_avr_delay_cycles(T1H);
                 PORTA &= ~(1 << PA0);
-                __builtin_avr_delay_cycles(T0H);
+                __builtin_avr_delay_cycles(T1L);
             }
             else
             {
                 PORTA |= (1 << PA0);
-                __builtin_avr_delay_cycles(T1L);
+                __builtin_avr_delay_cycles(T0H);
                 PORTA &= ~(1 << PA0);
                 __builtin_avr_delay_cycles(T0L);
             }            
